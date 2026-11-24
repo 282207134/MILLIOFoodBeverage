@@ -1,0 +1,36 @@
+name: mamam_delivery
+description: Flutter food delivery demo based on the Millio Pixso UI kit.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/fonts/Montserrat-OFL.txt
+    - assets/fonts/LuckiestGuy-LICENSE.txt
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-400.ttf
+        - asset: assets/fonts/Montserrat-500.ttf
+          weight: 500
+        - asset: assets/fonts/Montserrat-600.ttf
+          weight: 600
+        - asset: assets/fonts/Montserrat-700.ttf
+          weight: 700
+    - family: Luckiest Guy
+      fonts:
+        - asset: assets/fonts/LuckiestGuy.ttf
